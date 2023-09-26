@@ -1,0 +1,62 @@
+#requisitos {
+    background-image: url("../assets/img/SVG/requisitosbg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#particiones {
+    background-image: url("../assets/img/SVG/Particionesbg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#video {
+    background-image: url("../assets/img/SVG/videobg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgItem{
+    border-radius: 8px;
+}
+.slider{ /*Card slider area*/ 
+    position: relative;
+    width: 96%;
+    height: 470px;
+    overflow: hidden;
+}
+.item{ /*Tarjeta del carusel*/
+    position: absolute;
+    width:300px;
+    height: auto;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.5s;
+    left: calc(50% - 110px);
+    top: 0;
+    box-shadow: 3px 8px 21px -6px rgba(0,0,0,0.71);
+}
+/*Configuracion de flechas laterales para el carusel*/
+#next, #prev{
+    position: absolute;
+    cursor: pointer;
+    top: 40%;
+    color: #1E2528;
+    background-color: transparent;
+    border: none;
+    font-size: xxx-large;
+    font-family: monospace;
+    font-weight: bold;
+    left: 380px;
+}
+#next{
+    left: unset;
+    right: 300px;
+}
+#next:active{
+    vertical-align: top;
+    padding: 2px 2px 2px;
+}
+#prev:active{
+    vertical-align: top;
+    padding: 2px 2px 2px;
+}
